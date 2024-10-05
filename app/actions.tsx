@@ -1,7 +1,6 @@
-// Programmatic form submission.
-// You can trigger a form submission programmatically using the requestSubmit() method. For example, when the user submits a form using the ⌘ + Enter keyboard shortcut, you can listen for the onKeyDown event:
-
-'use server'
+// server side form validations
+//You can use the HTML attributes like required and type="email" for basic client-side form validation.
+// You can use the HTML attributes like required and type="email" for basic client-side form validation.'use server'
  
 import { z } from 'zod'
  
